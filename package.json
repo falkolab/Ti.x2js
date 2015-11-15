@@ -1,0 +1,32 @@
+{
+    "name": "titanium-x2js",
+    "version": "1.0.0",
+    "description": "This library provides XML to JSON (JavaScript Objects) and vice versa javascript conversion functions.",
+    "main": "xml2json.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "titaniumManifest": {
+        "name": "x2js",
+        "moduleid": "com.falkolab.x2js",
+        "guid": "8415f48a-131d-8d2c-b700-7e5c97e25ddd"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/falkolab/Ti.x2js"
+    },
+    "keywords": [
+        "titanium",
+        "titaniumifier",
+        "xml",
+        "json",
+        "conversion",
+        "convert"
+    ],
+    "author": "Andrey Tkachenko",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/falkolab/Ti.x2js/issues"
+    },
+    "homepage": "https://github.com/falkolab/Ti.x2js#readme"
+}
