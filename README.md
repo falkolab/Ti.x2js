@@ -28,10 +28,10 @@ Original sources and docs available at http://code.google.com/p/x2js
             * datetimeAccessFormPaths : [] - Datetime access paths. Use this option to configure paths to XML
              elements for "datetime form". You can configure beforehand paths to all your array elements based on XSD or your knowledge. Every path could be a simple string (like 'parent.child1.child2'), a regex (like /.*\.child2/), or a custom function. Default is empty
 
-    * <instance>.xml2json - Convert XML specified as DOM Object to JSON
-    * <instance>.json2xml - Convert JSON to XML DOM Object
-    * <instance>.xml_str2json - Convert XML specified as string to JSON
-    * <instance>.json2xml_str - Convert JSON to XML string
-    * <instance>.asArray - Utility function for working with JSON field always in array form
-    * <instance>.asDateTime - Utility function for convert the specified parameter from XML DateTime to JS Date
-    * <instance>.asXmlDateTime - Utility function for convert the specified parameter to XML DateTime from JS Date or timestamp
+    * instance.xml2json - Convert XML specified as DOM Object to JSON
+    * instance.json2xml - Convert JSON to XML DOM Object
+    * instance.xml_str2json - Convert XML specified as string to JSON
+    * instance.json2xml_str - Convert JSON to XML string
+    * instance.asArray - Utility function for working with JSON field always in array form
+    * instance.asDateTime - Utility function for convert the specified parameter from XML DateTime to JS Date
+    * instance.asXmlDateTime - Utility function for convert the specified parameter to XML DateTime from JS Date or timestamp
